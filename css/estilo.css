@@ -72,6 +72,10 @@ nav.navbar-transparente {
     color: #000;
 }
 
+.carousel-control-prev , .carousel-control-next{
+    width: 5%;
+} 
+
 /****** Estrutura de conteúdos ******/
 
 #servicos {
@@ -112,7 +116,9 @@ footer {
     padding: 50px 0px 20px 0px;
     position: relative;
 }
-
+footer img{
+    margin-bottom: 5px;
+}
 footer h4 {
     color: #919496;
     font-size: 0.8em;
@@ -165,6 +171,7 @@ h3 {
 @media (max-width: 575.98px) { 
     .btn-custom{
         margin: 10px 15px;
+        font-size: 1em;
     }
     
  }
@@ -185,6 +192,7 @@ h3 {
     h1 {
         font-size: 4em;
     }
+
  }
 
 /* Large devices (desktops, 992px and up)*/
